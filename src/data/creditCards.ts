@@ -11,7 +11,6 @@ export interface CreditCard {
   gradientClass: string
   textClass: string
   accentClass: string
-  annualFee: number
   benefits: CardBenefit[]
   whenToUse: string[]
   loungeAccess?: string
@@ -25,7 +24,6 @@ export const CREDIT_CARDS: CreditCard[] = [
     gradientClass: 'from-slate-800 to-slate-700',
     textClass: 'text-white',
     accentClass: 'text-amber-400',
-    annualFee: 550,
     loungeAccess: 'Priority Pass Select (1,300+ lounges worldwide)',
     benefits: [
       { category: 'Rewards', description: '3x points on travel & dining worldwide', value: '3x' },
@@ -52,7 +50,6 @@ export const CREDIT_CARDS: CreditCard[] = [
     gradientClass: 'from-indigo-800 to-indigo-600',
     textClass: 'text-white',
     accentClass: 'text-indigo-200',
-    annualFee: 395,
     loungeAccess: 'Capital One Lounges + Priority Pass (unlimited visits)',
     benefits: [
       { category: 'Rewards', description: '2x miles on all purchases (best catch-all card)', value: '2x' },
@@ -77,7 +74,6 @@ export const CREDIT_CARDS: CreditCard[] = [
     gradientClass: 'from-yellow-600 to-yellow-500',
     textClass: 'text-white',
     accentClass: 'text-yellow-100',
-    annualFee: 325,
     benefits: [
       { category: 'Rewards', description: '4x Membership Rewards at restaurants worldwide', value: '4x' },
       { category: 'Rewards', description: '4x at U.S. supermarkets (up to $25,000/yr)', value: '4x' },
@@ -100,7 +96,6 @@ export const CREDIT_CARDS: CreditCard[] = [
     gradientClass: 'from-blue-800 to-blue-600',
     textClass: 'text-white',
     accentClass: 'text-amber-300',
-    annualFee: 550,
     loungeAccess: 'Priority Pass (10 free visits/year)',
     benefits: [
       { category: 'Rewards', description: '14x Hilton Honors points at Hilton hotels worldwide', value: '14x' },
@@ -127,7 +122,6 @@ export const CREDIT_CARDS: CreditCard[] = [
     gradientClass: 'from-slate-400 to-slate-300',
     textClass: 'text-slate-900',
     accentClass: 'text-slate-700',
-    annualFee: 695,
     loungeAccess: 'Centurion Lounges + Delta Sky Clubs (when flying Delta) + Priority Pass + Airspace + Escape',
     benefits: [
       { category: 'Rewards', description: '5x Membership Rewards on flights booked directly with airlines', value: '5x' },
