@@ -58,7 +58,7 @@ const LODGING: LodgingProperty[] = [
       'Phone: +33 4 92 99 73 00',
     ],
     bestCard: 'Amex Hilton Honors Aspire',
-    cardNote: '14x points + Diamond status + $100 on-property credit',
+    cardNote: '14x points + Diamond status + on-property credit',
     colorClass: 'border-amber-500',
     bgClass: 'bg-amber-50',
     textClass: 'text-amber-700',
