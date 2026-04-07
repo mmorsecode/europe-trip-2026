@@ -39,9 +39,6 @@ export function CreditCardSection() {
                         <span>✈</span> {card.loungeAccess}
                       </div>
                     )}
-                    <div className={`text-[10px] mt-1.5 ${card.textClass} opacity-60`}>
-                      ${card.annualFee}/yr annual fee
-                    </div>
                   </div>
                   <div className="flex flex-col items-end gap-2">
                     <CreditCard size={24} className={`${card.textClass} opacity-60`} />
